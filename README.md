@@ -1,4 +1,5 @@
-# ESLint/Prettier & Airbnb's Style Guide for React Apps
+# ESLint/Prettier & Airbnb's Style Guide for non React Apps
+Forked and changed to facilitate usage in non-react ES6 apps where the airbnb-base ruleset is wanted instead of the react ruleset. 
 
 **Make sure you `npm init`, or at least have a _package.json_ file before proceeding!**
 
@@ -9,7 +10,7 @@
 
 ```
 cd
-git clone https://github.com/paulolramos/eslint-prettier-airbnb-react style-config
+git clone https://github.com/EliantenHolder/eslint-prettier-airbnb-base style-config
 ```
 
 2. Navigate to your app directory where you want to include this style configuration.
@@ -29,4 +30,4 @@ cd myApp
 - .eslintrc.json
 - .prettierrc
 
-This script follows this [tutorial](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a) by Jeffrey Zhen.
+This script loosely follows this [tutorial](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a) by Jeffrey Zhen.
